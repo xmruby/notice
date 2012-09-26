@@ -1,0 +1,36 @@
+redis_settings:
+  ip: "192.168.1.24"
+  port: 6379
+
+notice:
+  template: "二零一二年十月一日放假 通知：this is my notice"
+
+app_settings:
+  app: "10.1公告"
+
+ext_settings:
+  dw_ext: 7
+  wlg_ext: 1
+  bq_ext: 5
+  aq_ext: 3
+  tq_ext: 4
+  dl_ext: 6
+  ds_ext: 8
+  lq_ext: 2
+  hq_ext: 9
+  ks_ext: 10
+  hd_ext: 11
+  
+city_settings:
+  dw_city: "东乌"
+  bq_city: "白旗"
+  wlg_city: "乌拉盖"
+  aq_city: "阿旗"
+  tq_city: "太旗"
+  dl_city: "多伦"
+  ds_city: "东苏"
+  lq_city: "蓝旗"
+  hq_city: "黄旗"
+  ks_city: "康盛基业"
+  hd_city: "化德"
+
