@@ -1,12 +1,16 @@
 redis_settings:
-  ip: "192.168.1.24"
+  # ip: "192.168.0.100"
+  # port: 6379
+  # timeout: 2.5
+  ip: "192.168.1.25"
   port: 6379
+  # timeout: 2.5
 
 notice:
-  template: "二零一二年十月一日放假 通知：this is my notice"
+  template: "尊敬的电力用户：您好！{}网上交费查询系统正式开通了，请登入www.nmjf.cn进行在线交费查询，给您带来方便、快捷的服务体验。"
 
 app_settings:
-  app: "10.1公告"
+  app: "测试"
 
 ext_settings:
   dw_ext: 7
@@ -20,7 +24,7 @@ ext_settings:
   hq_ext: 9
   ks_ext: 10
   hd_ext: 11
-  
+
 city_settings:
   dw_city: "东乌"
   bq_city: "白旗"
